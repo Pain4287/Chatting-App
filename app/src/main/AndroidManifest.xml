@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Clone_App"
         tools:targetApi="31">
         <activity
+            android:name=".Requests"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Profilee"
+            android:exported="false" />
+        <activity
             android:name=".Chat"
             android:exported="false" />
         <activity
